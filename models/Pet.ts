@@ -1,0 +1,1 @@
+import {Schema,model,models} from 'mongoose'; export default models.Pet||model('Pet',new Schema({ownerId:String,caretakerIds:[String],name:String,type:String,breed:String,age:String,weight:String,avatar:{type:String,default:'🐾'},allergies:[String],conditions:[String]},{timestamps:true}));

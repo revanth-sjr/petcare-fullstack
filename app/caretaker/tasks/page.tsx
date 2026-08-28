@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function T(){return <main className="caretaker"><div className="content"><Link href="/caretaker/dashboard">← Dashboard</Link><h1>Task History</h1><p>Completed, pending, missed and overdue assigned activities are shown here.</p></div></main>}

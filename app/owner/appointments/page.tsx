@@ -1,0 +1,1 @@
+import OwnerShell from '@/components/OwnerShell';export default function P(){return <OwnerShell><div className="card"><h2>Appointments</h2><p>Manage appointments records, details and reminders from your owner account.</p></div></OwnerShell>}

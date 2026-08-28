@@ -1,0 +1,1 @@
+import {Schema,model,models} from 'mongoose'; export default models.Medication||model('Medication',new Schema({petId:String,ownerId:String,name:String,dosage:String,schedule:String,notes:String},{timestamps:true}));

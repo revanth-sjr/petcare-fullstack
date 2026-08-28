@@ -1,0 +1,1 @@
+import mongoose from 'mongoose'; const uri=process.env.MONGODB_URI; const g=global as any; let cache=g.__mongo||(g.__mongo={conn:null,promise:null}); export default async function db(){if(!uri)throw new Error('MONGODB_URI is not configured');if(cache.conn)return cache.conn;if(!cache.promise)cache.promise=mongoose.connect(uri);cache.conn=await cache.promise;return cache.conn}

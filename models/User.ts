@@ -1,0 +1,1 @@
+import {Schema,model,models} from 'mongoose'; export default models.User||model('User',new Schema({clerkId:{type:String,unique:true},name:String,email:String,role:{type:String,enum:['owner','caretaker'],default:'owner'}},{timestamps:true}));

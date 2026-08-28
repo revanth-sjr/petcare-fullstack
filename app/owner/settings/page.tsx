@@ -1,0 +1,1 @@
+import OwnerShell from '@/components/OwnerShell';export default function P(){return <OwnerShell><div className="card"><h2>Settings</h2><p>Manage settings records, details and reminders from your owner account.</p></div></OwnerShell>}

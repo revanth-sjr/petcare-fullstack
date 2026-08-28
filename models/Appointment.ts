@@ -1,0 +1,1 @@
+import {Schema,model,models} from 'mongoose'; export default models.Appointment||model('Appointment',new Schema({petId:String,ownerId:String,veterinarian:String,title:String,date:String,time:String,status:{type:String,default:'upcoming'},notes:String},{timestamps:true}));

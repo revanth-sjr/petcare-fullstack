@@ -1,0 +1,28 @@
+# credentials — never commit these
+serviceAccount.json
+*-firebase-adminsdk-*.json
+.env
+.env.*
+!.env.example
+functions/.env
+
+# build & Next.js
+.next/
+out/
+build/
+
+# firebase  (.firebaserc IS committed — it points the team at one project)
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# node
+node_modules/
+npm-debug.log*
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
